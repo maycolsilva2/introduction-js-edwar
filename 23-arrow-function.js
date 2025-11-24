@@ -100,4 +100,4 @@ const result6 = shoppingCart.filter((product) =>
      product.price<600
 )
 
-console.log(result6)
+console.log(result6)    
