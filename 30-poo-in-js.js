@@ -32,7 +32,7 @@ class book extends product {
         this.isbn = isbn;
     }
 
-formatProduct(){
+formatProduct1(){
     return `${super.formatProduct()} y su ISBN es ${this.isbn}`
 }
 }
@@ -42,4 +42,4 @@ const book1 = new book ("el perfume", 20000, 13579)
 // console.log(book1.formatProduct)    
 book1.formatProduct();
 
-console.log(book1.formatProduct())
+console.log(book1.formatProduct1())    
