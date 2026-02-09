@@ -9,7 +9,7 @@ const shoppingCart = [
     {productName: 'sound-bar', price: 900 , color: "purple"},
     {productName: 'play station', price: 800 , color: "red"},
     {productName: 'wii', price: 450 , color: "brown"},
-    {productName: 'mouse', price: 50 , color: "pink"},
+    {productName: 'mouse', price: 50 , color: "pink"},    
 ]
 
 //Recorrer un arreglo por cada elemento
@@ -37,3 +37,9 @@ shoppingCart.forEach((product) => console.log(product));
 shoppingCart.forEach((product) => console.log(product.price));
 shoppingCart.forEach((product) => console.log(product.productName));
 shoppingCart.forEach((product) => console.log(product.color));
+
+
+
+// =======================================
+
+const array = shoppingCart.map( product => `${}`)
