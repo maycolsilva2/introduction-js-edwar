@@ -42,4 +42,6 @@ shoppingCart.forEach((product) => console.log(product.color));
 
 // =======================================
 
-const array = shoppingCart.map( product => `${}`)
+const array = shoppingCart.map ( product => `El nombre del producto es ${product.productName} - ${product.price}`)
+
+console.log(array);
