@@ -1,6 +1,9 @@
 //arrow function
 //En JS es una forma mas corta de escribir funciones usando la sintaxis () =>
 
+
+    // si solo tenemos un parametro no es necesario poner parentesis
+
 //Sintaxis más breve, ideal para funciones pequeñas 
 // NO tiene su propio this,hereda el this del contexto donde se define.
 
