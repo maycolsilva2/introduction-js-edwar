@@ -14,4 +14,4 @@ button,addEventListener('click', () =>{
             console.log("permiso denegado")
         }
     });
-});
+});    
